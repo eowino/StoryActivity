@@ -39,4 +39,11 @@ public class Story {
 
         pages.add(new Page(R.drawable.page6, R.string.page6));
     }
+
+    public Page getPage(int pageNumber) {
+        if (pageNumber >= this.pages.size()) {
+            pageNumber = 0;
+        }
+        return this.pages.get(pageNumber);
+    }
 }
