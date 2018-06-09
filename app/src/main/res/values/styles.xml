@@ -14,4 +14,9 @@
         <item name="android:textSize">16sp</item>
     </style>
 
+    <style name="TextInput">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:padding">10sp</item>
+    </style>
+
 </resources>
