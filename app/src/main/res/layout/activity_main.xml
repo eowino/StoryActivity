@@ -20,9 +20,9 @@
 
     <Button
         android:id="@+id/startButton"
+        style="@style/WhiteButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:text="@string/start_button_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
